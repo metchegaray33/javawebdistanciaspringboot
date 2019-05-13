@@ -9,7 +9,7 @@ import lombok.Data;
 @Data //genera getter y setter,equals, hashcode, to string
 @Entity //marca es una entidad que quiero persisitr a hibernate
 //no marco @Table ni @column significa que las tablas y columnas se llaman asi
-//agrego test2
+//comentario del merge
 public class Empleado {
 	/**
 	 * como mínimo marco cuál es el id
@@ -17,8 +17,7 @@ public class Empleado {
 	 */
 	private @Id @GeneratedValue Long id;
 	private String nombre;
-	private String cargo;
-        private String apellido;
+	private String cargo; 
 	public Empleado(Long id, String nombre, String cargo) {
 		super();
 		this.id = id;
