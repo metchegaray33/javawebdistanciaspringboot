@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.rest</groupId>
-	<artifactId>clase3</artifactId>
+	<artifactId>javawebdistanciaspringboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>clase3</name>
+	<name>javawebdistanciaspringboot</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
