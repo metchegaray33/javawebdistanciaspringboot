@@ -17,8 +17,7 @@ public class Empleado {
 	 */
 	private @Id @GeneratedValue Long id;
 	private String nombre;
-	private String cargo;
-        private String apellido;
+	private String cargo; 
 	public Empleado(Long id, String nombre, String cargo) {
 		super();
 		this.id = id;
