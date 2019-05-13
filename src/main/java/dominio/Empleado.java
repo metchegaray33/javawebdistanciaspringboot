@@ -9,6 +9,7 @@ import lombok.Data;
 @Data //genera getter y setter,equals, hashcode, to string
 @Entity //marca es una entidad que quiero persisitr a hibernate
 //no marco @Table ni @column significa que las tablas y columnas se llaman asi
+//agrego comentario
 public class Empleado {
 	/**
 	 * como mínimo marco cuál es el id
